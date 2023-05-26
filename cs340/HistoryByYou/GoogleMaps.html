@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Map</title>
+
+    <!-- insert css and js -->
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="GoogleMaps.css">
+    <script src="GoogleMaps.js"></script>
+  </head>
+  <body>
+    <h3>History By You</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+      async
+    ></script>
+  </body>
+</html>
